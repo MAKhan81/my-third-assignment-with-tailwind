@@ -14,6 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;700;800&display=swap"
         rel="stylesheet">
+        
     <style>
         .font-serif {
             font-family: 'Lato', sans-serif;
@@ -26,8 +27,8 @@
 
 <body class="font-serif">
     <header class="w-11/12 mx-auto">
-        <nav>
-            <div class="navbar bg-base-100">
+        <!--nav bar start here-->
+            <div class="navbar px-8 md:px-16 lg:px-24 bg-error rounded-full">
                 
                 <div class="navbar-start hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
@@ -42,10 +43,11 @@
                      <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
                   </div>
                 <div class="navbar-end hidden lg:flex">
-                    <input type="text" placeholder="Search" class="input input-bordered w-full rounded-full max-w-xs" />
+                    <input type="text" placeholder="Search" class="input input-bordered w-full rounded-full max-w-xs"/>
                 </div>
               </div>
-        </nav>
+         <!--nav bar ends here-->     
+        
         
 
         <section class="px-auto">
@@ -57,16 +59,22 @@
                         <a href="#slide4" class="btn btn-circle">❮</a>
                         <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
-                    <div class="absolute w-full h-scale-50 text-center text-white">
+                    <div class="absolute right-24 top-64 border:500 w-full h-scale-50 text-center text-white">
                         <h2 class="text-7xl font-extrabold">Exotic tastes at your doorstep</h2>
                         <p class="text-xl font-medium">We supply highly quality organic products</p>
-                        <button>Shop Now</button></div>
+                        <button>Shop Now</button>
+                    </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
                     <img src="/images//banner2.png" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" class="btn btn-circle">❮</a>
                         <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                    <div class="absolute right-24 top-64 border:500 w-full h-scale-50 text-center text-white">
+                        <h2 class="text-7xl font-extrabold">Exotic tastes at your doorstep</h2>
+                        <p class="text-xl font-medium">We supply highly quality organic products</p>
+                        <button>Shop Now</button>
                     </div>
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
@@ -75,6 +83,11 @@
                         <a href="#slide2" class="btn btn-circle">❮</a>
                         <a href="#slide4" class="btn btn-circle">❯</a>
                     </div>
+                    <div class="absolute right-24 top-64 border:500 w-full h-scale-50 text-center text-white">
+                        <h2 class="text-7xl font-extrabold">Exotic tastes at your doorstep</h2>
+                        <p class="text-xl font-medium">We supply highly quality organic products</p>
+                        <button>Shop Now</button>
+                    </div>
                 </div>
                 <div id="slide4" class="carousel-item relative w-full">
                     <img src="/images//banner4.png" class="w-full" />
@@ -82,14 +95,22 @@
                         <a href="#slide3" class="btn btn-circle">❮</a>
                         <a href="#slide1" class="btn btn-circle">❯</a>
                     </div>
+                    <div class="absolute right-24 top-64 border:500 w-full h-scale-50 text-center text-white">
+                        <h2 class="text-7xl font-extrabold">Exotic tastes at your doorstep</h2>
+                        <p class="text-xl font-medium">We supply highly quality organic products</p>
+                        <button>Shop Now</button>
+                    </div>
                 </div>
             </div>
         </section>
         <section>
 
         </section>
-        <section>
-            <div class="hero min-h-screen" style="background-image: url(./images/whychoose1.png)">
+        
+    </header>
+    <main>
+        <section class="w-11/12 mx-auto">
+            <div class="hero min-h- bg-cover" style="background-image: url(./images/whychoose1.png)">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content">
                   <div class="max-w-md">
@@ -118,8 +139,8 @@
         </section>
 
 
-    </header>
-    <main>
+    
+    
 
     </main>
 
@@ -134,14 +155,14 @@
             <a class="link link-hover">My Account</a>
         </div>
 
-        <div class="grid grid-flow-col  gap-4">
-            <span class="footer-icons decoration-white" style="justify-content: center; ">
-                <img class="w-10 h-10" src="https://img.icons8.com/?size=512&id=118497&format=png" alt="">
-                <img class="w-10 h-10" src="https://img.icons8.com/?size=512&id=13963&format=png" alt="">
-                <img class="w-10 h-10" src="https://img.icons8.com/?size=512&id=19318&format=png" alt="">
-                <img class="w-10 h-10" src="https://img.icons8.com/?size=1x&id=13930&format=png" alt="">
+        
+            <span class="justify-center items-center grid grid-flow-col md:row  gap-4">
+                <img class="w-10 h-10 bg-slate-100" src="https://img.icons8.com/?size=512&id=118497&format=png" alt="">
+                <img class="w-10 h-10 bg-slate-100" src="https://img.icons8.com/?size=512&id=13963&format=png" alt="">
+                <img class="w-10 h-10 bg-slate-100" src="https://img.icons8.com/?size=512&id=19318&format=png" alt="">
+                <img class="w-10 h-10 bg-slate-100" src="https://img.icons8.com/?size=1x&id=13930&format=png" alt="">
             </span>
-        </div>
+        
 
     </footer>
 
