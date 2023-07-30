@@ -14,7 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;700;800&display=swap"
         rel="stylesheet">
-        
+
     <style>
         .font-serif {
             font-family: 'Lato', sans-serif;
@@ -22,39 +22,40 @@
             font-family: 'Work Sans', sans-serif;
         }
     </style>
-
+      <!-- Include Font Awesome icons -->
+  <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="font-serif">
     <header class="w-11/12 mx-auto">
         <!--nav bar start here-->
-            <div class="navbar px-8 md:px-16 lg:px-24 bg-error rounded-full">
-                
-                <div class="navbar-start hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
+        <div class="navbar px-8 md:px-16 lg:px-24 my-5 bg-error rounded-full">
+
+            <div class="navbar-start hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
                     <li><a>Home</a></li>
                     <li><a>About Us</a></li>
                     <li><a>Shop</a></li>
                     <li><a>All Fruits</a></li>
-                  </ul>
-                </div>
-                <div class="navbar-center">
-                    <img class="w-10 h-10" src="./images/logo.png" alt="">
-                     <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
-                  </div>
-                <div class="navbar-end hidden lg:flex">
-                    <input type="text" placeholder="Search" class="input input-bordered w-full rounded-full max-w-xs"/>
-                </div>
-              </div>
-         <!--nav bar ends here-->     
-        
-        
+                </ul>
+            </div>
+            <div class="navbar-center">
+                <img class="w-10 h-10" src="./images/logo.png" alt="">
+                <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+            </div>
+            <div class="navbar-end hidden lg:flex">
+                <input type="text" placeholder="Search" class="input input-bordered w-full rounded-full max-w-xs" />
+            </div>
+        </div>
+        <!--nav bar ends here-->
+
+
 
         <section class="px-auto">
             <div class="carousel w-full">
-                
+
                 <div id="slide1" class="carousel-item relative w-full">
-                  <img src="/images//banner1.png" class="w-full" />
+                    <img src="/images//banner1.png" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide4" class="btn btn-circle">❮</a>
                         <a href="#slide2" class="btn btn-circle">❯</a>
@@ -62,7 +63,7 @@
                     <div class="absolute right-24 top-64 border:500 w-full h-scale-50 text-center text-white">
                         <h2 class="text-7xl font-extrabold">Exotic tastes at your doorstep</h2>
                         <p class="text-xl font-medium">We supply highly quality organic products</p>
-                        <button>Shop Now</button>
+                        <button class="btn btn-primary bg-error border-none">Shop now</button>
                     </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
@@ -74,7 +75,7 @@
                     <div class="absolute right-24 top-64 border:500 w-full h-scale-50 text-center text-white">
                         <h2 class="text-7xl font-extrabold">Exotic tastes at your doorstep</h2>
                         <p class="text-xl font-medium">We supply highly quality organic products</p>
-                        <button>Shop Now</button>
+                        <button class="btn btn-primarybg bg-error border-none">Shop now</button>
                     </div>
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
@@ -86,7 +87,7 @@
                     <div class="absolute right-24 top-64 border:500 w-full h-scale-50 text-center text-white">
                         <h2 class="text-7xl font-extrabold">Exotic tastes at your doorstep</h2>
                         <p class="text-xl font-medium">We supply highly quality organic products</p>
-                        <button>Shop Now</button>
+                        <button class="btn btn-primary bg-error border-none">Shop now</button>
                     </div>
                 </div>
                 <div id="slide4" class="carousel-item relative w-full">
@@ -98,54 +99,146 @@
                     <div class="absolute right-24 top-64 border:500 w-full h-scale-50 text-center text-white">
                         <h2 class="text-7xl font-extrabold">Exotic tastes at your doorstep</h2>
                         <p class="text-xl font-medium">We supply highly quality organic products</p>
-                        <button>Shop Now</button>
+                        <button class="btn btn-primary bg-error border-none">Shop now</button>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
-
-        </section>
         
+
+
     </header>
     <main>
-        <section class="w-11/12 mx-auto">
-            <div class="hero min-h- bg-cover" style="background-image: url(./images/whychoose1.png)">
-                <div class="hero-overlay bg-opacity-60"></div>
-                <div class="hero-content text-center text-neutral-content">
-                  <div class="max-w-md">
-                    <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
-                    <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+        <div class="bg-gray-100">
+            <div class="w-11/12 mx-auto p-6">
+                <!-- Title Section -->
+                <div class="flex items-center justify-between">
+                    <div>
+                        <h1 class="text-5xl font-extrabold">Deals of the Day</h1>
+                    <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
                     </div>
-                    <div class="grid">
-                        <div class="card w-96 bg-base-100 shadow-xl">
-                            <figure><img src="/images/member1.png" alt="Shoes" /></figure>
-                            <div class="card-body text-center">
-                              <h2 class="card-title text-center">Awlad Hossain</h2>
-                              <p>Fruits Expert</p>
-                              <div class="flex-row items-center justify-between">
-                                <img class="w-10 h-10" src="https://img.icons8.com/?size=512&id=118497&format=png" alt="">
-                                <img class="w-10 h-10" src="https://img.icons8.com/?size=512&id=114450&format=png" alt="">
-                                <img class="w-10 h-10" src="https://img.icons8.com/?size=512&id=114445&format=png" alt="">
-                                
-                              </div>
-                            </div>
-                          </div>
+                    <div class="p-4">
+                        <div class="text-center flex">
+                            <div class="flex-col px-2 py-2"><span class="text-5xl font-extrabold" id="days">29</span> <p>Days</p></div>
+                            <div class="flex-col px-2 py-2"><span class="text-5xl font-extrabold" id="hours">15</span> <p>Hours</p></div>
+                            <div class="flex-col px-2 py-2"><span class="text-5xl font-extrabold" id="minutes">25</span> <p>Mins</p></div>
+                            <div class="flex-col px-2 py-2"><span class="text-5xl font-extrabold" id="seconds">08</span> <p>Secs</p></div>
+                        </div>
                     </div>
                 </div>
-              </div>
-            
-            
-        </section>
+
+                <!-- Cards Section -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Card 1 -->
+                    <div class="bg-white shadow-md p-8">
+                        <div class="h-36 flex items-center justify-center">
+                            <img src="./images/fruit6.png" alt="Apple" class="h-24">
+                        </div>
+                        <div class="flex items-center justify-center mt-2 text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="text-2xl font-bold mt-2">12.90$ - 18.85$</div>
+                        <button class="text-error">Details</button>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-white shadow-md p-8">
+                        <div class="h-36 flex items-center justify-center">
+                            <img src="./images/fruit7.png" alt="Fruit 2" class="h-24">
+                        </div>
+                        <div class="flex items-center justify-center mt-2 text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="text-2xl font-bold mt-2">12.90$ - 18.85$</div>
+                        <button class="text-error">Details</button>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-white shadow-md p-8">
+                        <div class="h-36 flex items-center justify-center">
+                            <img src="./images/fruit8.png" alt="Fruit 3" class="h-24">
+                        </div>
+                        <div class="flex items-center justify-center mt-2 text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="text-2xl font-bold mt-2">12.90$ - 18.85$</div>
+                        <button class="text-error">Details</button> 
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="bg-white shadow-md p-8">
+                        <div class="h-36 flex items-center justify-center">
+                            <img src="./images/fruit9.png" alt="Fruit 4" class="h-24">
+                        </div>
+                        <div class="flex items-center justify-center mt-2 text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="text-2xl font-bold mt-2">12.90$ - 18.85$</div>
+                        <button class="text-error">details</button>
+                    </div>
+                </div>
+                <button class="btn btn-prim
+            </div>
+
+            <section class="w-11/12 h-[600px] mx-auto">
+                <div class="hero min-h- bg-cover" style="background-image: url(./images/whychoose1.png)">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-center text-neutral-content">
+                        <div class="max-w-md">
+                            <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
+                            <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a
+                                piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="grid grid-cols-1">
+                        <div class="card w-96 shadow-xl ">
+                            <figure><img src="/images/member1.png" alt="" /></figure>
+                            <div class="card-body text-center text-white w-56 h-60">
+                                <h2 class="">Awlad Hossain</h2>
+                                <p>Fruits Expert</p>
+                                <div class="flex items-center justify-between">
+                                    <img class="w-10 h-10"
+                                        src="https://img.icons8.com/?size=512&id=118497&format=png" alt="">
+                                    <img class="w-10 h-10"
+                                        src="https://img.icons8.com/?size=512&id=114450&format=png" alt="">
+                                    <img class="w-10 h-10"
+                                        src="https://img.icons8.com/?size=512&id=114445&format=png" alt="">
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
-    
-    
+
+
 
     </main>
 
     <footer class="footer footer-center p-10 h-1/5 text-base-content rounded text-white bg-slate-950">
-        <h4 class="grid grid-flow-col gap-4 text-4xl font-bold">Fruit Burst</h4>
+        <div class="flex">
+            <img class="w-10 h-10" src="./images/logo.png" alt="">
+            <h4 class="grid grid-flow-col gap-4 text-4xl font-bold">Fruit Burst</h4>
+        </div>
         <div class="grid grid-flow-col gap-4">
             <a class="link link-hover">Home</a>
             <a class="link link-hover">About us</a>
@@ -155,18 +248,19 @@
             <a class="link link-hover">My Account</a>
         </div>
 
-        
-            <span class="justify-center items-center grid grid-flow-col md:row  gap-4">
-                <img class="w-10 h-10 bg-slate-100" src="https://img.icons8.com/?size=512&id=118497&format=png" alt="">
-                <img class="w-10 h-10 bg-slate-100" src="https://img.icons8.com/?size=512&id=13963&format=png" alt="">
-                <img class="w-10 h-10 bg-slate-100" src="https://img.icons8.com/?size=512&id=19318&format=png" alt="">
-                <img class="w-10 h-10 bg-slate-100" src="https://img.icons8.com/?size=1x&id=13930&format=png" alt="">
-            </span>
-        
+
+        <span class="justify-center items-center grid grid-flow-col md:row  gap-4">
+            <img class="w-10 h-10 bg-slate-100" src="https://img.icons8.com/?size=512&id=118497&format=png" alt="">
+            <img class="w-10 h-10 bg-slate-100" src="https://img.icons8.com/?size=512&id=13963&format=png" alt="">
+            <img class="w-10 h-10 bg-slate-100" src="https://img.icons8.com/?size=512&id=19318&format=png" alt="">
+            <img class="w-10 h-10 bg-slate-100" src="https://img.icons8.com/?size=1x&id=13930&format=png" alt="">
+        </span>
+
 
     </footer>
 
 
+  
 </body>
 
 </html>
